@@ -61,6 +61,12 @@ export const imagesSelector =
     selfSelector,
     (state) => state.data
   );
+export const imagesCounterSelector =
+  createSelector(
+    selfSelector,
+    (state) =>
+      state.data.length
+  );
 
 export const fetchImages =
   () => {

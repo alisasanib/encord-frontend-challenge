@@ -54,6 +54,13 @@ export const predictionsSelector =
     (state) => state.data
   );
 
+export const predictionsCounterSelector =
+  createSelector(
+    selfSelector,
+    (state) =>
+      state.data.length
+  );
+
 export const fetchPrediction =
   ({
     url,

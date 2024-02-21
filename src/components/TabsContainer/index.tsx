@@ -51,7 +51,9 @@ function a11yProps(
 }
 
 type CustomTab = {
-  label: string;
+  label:
+    | string
+    | React.ReactElement;
   index: number;
   content: any;
 };
