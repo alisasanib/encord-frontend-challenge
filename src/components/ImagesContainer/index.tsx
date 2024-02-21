@@ -88,7 +88,7 @@ const ImagesContainer =
                   data: image.size,
                 },
                 {
-                  data: new Date().toLocaleString(),
+                  data: image.uploadedAt,
                 },
                 {
                   data: (
