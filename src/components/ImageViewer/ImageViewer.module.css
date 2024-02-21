@@ -1,0 +1,10 @@
+.element_highlighter {
+  background-color: rgba(
+    0,
+    0,
+    255,
+    0.1
+  );
+  border: solid black 2px;
+  position: absolute;
+}
